@@ -1,0 +1,85 @@
+body, input
+{ 
+	background-color: black;
+	color: grey;
+}
+
+p { text-align: justify; }
+
+.screen
+{ 
+	height: 80%;
+	width: 50%;
+	margin-top: 1%;
+	margin-left: 25%;
+}
+
+#mainScreen { text-align: justify; }
+
+input 
+{
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px dashed grey;
+}
+
+#header span, #inventoryScreen
+{
+	border-bottom: 1px dashed grey;
+	border-right: 2px dotted grey;
+	padding-bottom: 2px;
+	padding-right: 4px;
+}
+
+#inventory , #buttonInput { color: rgb(100, 90, 130); }
+
+#inventory:hover, #buttonInput:hover
+{ 
+	font-style: oblique;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#inventory:active, #buttonInput:active { background-color: rgb(32,32,32); }
+
+#inventoryScreen 
+{
+	position: absolute;
+	display: none;
+	border-top: 1px dashed grey;
+	border-left: 2px dotted grey;
+	background-color: black;
+}
+
+table { margin-left: 2px; }
+
+tr:first-child
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+td { border-bottom: 1px dashed grey; }
+
+td:nth-child(2) 
+{
+	border-right: 2px dotted grey;
+	border-left: 2px dotted grey;
+	text-align: center;
+} 
+
+#buttonInput
+{
+	border-top: 1px dashed grey;
+	border-left: 2px dotted grey;
+	background-color: black;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	bottom: 0;
+	right: 1px;
+}

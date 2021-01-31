@@ -1,0 +1,27 @@
+name,hp,agility,credits
+armour name,armour protection,armour durability
+melee weapon name,0,mw damage
+ranged weapon name,rw ammo,rw damage
+i i0 name,i0 description,i0 value,i0LPGain
+i i1 name,i1 description,i1 value,i1LPGain
+i i2 name,i2 description,i2 value,i2LPGain
+i i3 name,i3 description,i3 value,i3LPGain
+i i4 name,i4 description,i4 value,i4LPGain
+i i5 name,i5 description,i5 value,i5LPGain
+i i6 name,i6 description,i6 value,i6LPGain
+i i7 name,i7 description,i7 value,i7LPGain
+i i8 name,i8 description,i8 value,i8LPGain
+i i9 name,i9 description,i9 value,i9LPGain
+i i10 name,i10 descri1pti1on,i10 value,i10LPGai1n
+i i11 name,i11 descri1pti1on,i11 value,i11LPGai1n
+i i12 name,i12 descri1pti1on,i12 value,i12LPGai1n
+i i13 name,i13 descri1pti1on,i13 value,i13LPGai1n
+i i14 name,i14 descri1pti1on,i14 value,i14LPGai1n
+i i15 name,i15 descri1pti1on,i15 value,i15LPGai1n
+i i16 name,i16 descri1pti1on,i16 value,i16LPGai1n
+i i17 name,i17 descri1pti1on,i17 value,i17LPGai1n
+i i18 name,i18 descri1pti1on,i18 value,i18LPGai1n
+i i19 name,i19 descri1pti1on,i19 value,i19LPGai1n
+List,of,locations,discovered
+Current location
+list of items taken;their location,etc;etc

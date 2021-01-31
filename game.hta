@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	
+	<head>
+	
+		<hta:application icon="favicon.ico" border="thin" scroll="no" selection="no"/>
+		<meta charset="utf-8"/> 
+		<title>COGITOS</title>
+		<meta http-equiv="x-ua-compatible" content="ie=9"/> 
+		<link rel="stylesheet" href="style.css"/>
+	
+	</head>
+	
+	<body>
+	
+		<div id="header">
+		
+			<span id="playerName"></span>
+			<span id="life"></span>
+			<span id="protection"></span>
+			
+			<span id="cash"></span>
+			<span id="skill"></span>
+			<span id="inventory" onclick="EnableInventory()">Inventory</span>
+			
+		</div>
+
+		<div id="mainScreen" class="screen"></div>
+		<div id="inventoryScreen" class="screen"></div>
+		
+		<input id="textInput" type="text" value="type here"/>
+		<div id="buttonInput" onclick="ReadCommand()">G➲</div>
+		
+		<script language="vbscript" type="text/vbscript" src="scripts/item.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/weapon.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/armour.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/character.vbs"></script>
+		
+		<script language="vbscript" type="text/vbscript" src="scripts/utilities.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/command.vbs"></script>
+		
+		<script language="vbscript" type="text/vbscript" src="scripts/engine.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/start.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/inventory.vbs"></script>
+		<script language="vbscript" type="text/vbscript" src="scripts/main.vbs"></script>
+		
+		
+	</body>
+	
+</html>
